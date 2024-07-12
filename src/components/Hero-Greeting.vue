@@ -1,10 +1,10 @@
 <template>
-    <div class="flex items-center justify-center w-full h-full px-3 pb-3">
-        <div class="hero bg-base-300 h-1/2 w-1/2 rounded-xl shadow-2xl">
+    <div class="flex items-center justify-center w-full h-full">
+        <div
+            class="card flex flex-col bg-base-300 min-h-fit min-w-24 items-center rounded-xl shadow-2xl p-5 mx-5"
+        >
             <div class="max-w-md">
-                <h1 class="text-5xl font-bold text-nowrap">
-                    Testing playground
-                </h1>
+                <h1 class="text-5xl font-bold">Testing playground</h1>
                 <p class="py-6">
                     This is a testing playground. Feel free to use it to test
                     new components and features. Try to use components to keep
