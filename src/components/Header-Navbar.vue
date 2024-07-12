@@ -1,5 +1,5 @@
 <script setup>
-import { Menu, Search, Bell, Palette } from "lucide-vue-next";
+import { Menu, Search, Bell, Palette, CircleUser } from "lucide-vue-next";
 </script>
 
 <template>
@@ -147,6 +147,12 @@ import { Menu, Search, Bell, Palette } from "lucide-vue-next";
                         </li>
                     </ul>
                 </button>
+
+                <router-link to="/Authorization">
+                    <button class="btn btn-ghost btn-square">
+                        <CircleUser />
+                    </button>
+                </router-link>
 
                 <button class="btn btn-ghost btn-square">
                     <div class="indicator">
