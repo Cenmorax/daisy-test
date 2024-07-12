@@ -1,6 +1,6 @@
 # daisy-test
 
-This template should help get you started developing with Vue 3 in Vite.
+A playground where I test different component libraries and experiment with code and stuff
 
 ## Recommended IDE Setup
 
