@@ -12,7 +12,7 @@
                     <b
                         >Idk try to use blocks for the main components that
                         should be displayed in the main page (Header, Hero,
-                        etc.) otherwise is causes some strange behaviour in
+                        etc.) otherwise is causes some strange behavior in
                         layout
                     </b>
                     <br />
