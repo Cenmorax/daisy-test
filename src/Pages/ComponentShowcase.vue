@@ -10,7 +10,9 @@ import {
 </script>
 
 <template>
-    <div class="grid grid-cols-4 w-full">
+    <div
+        class="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] min-w-1/4 gap-3"
+    >
         <div class="flex">
             <div
                 class="card flex w-full items-center bg-base-200 h-fit mx-3 p-3 gap-3"
@@ -170,7 +172,7 @@ import {
 
         <div class="flex">
             <div
-                class="card flex w-full items-center bg-base-200 h-fit mx-3 -my-10 p-3 gap-3"
+                class="card flex w-full items-center bg-base-200 h-fit mx-3 p-3 gap-3"
             >
                 <h1 class="text-3xl font-bold">Loadings</h1>
                 <div class="w-full h-auto flex flex-col gap-3 items-center">
@@ -198,7 +200,7 @@ import {
 
         <div class="flex">
             <div
-                class="card flex w-full items-center bg-base-200 h-fit mx-3 my-5 p-3 gap-3"
+                class="card flex w-full items-center bg-base-200 h-fit mx-3 p-3 gap-3"
             >
                 <h1 class="text-3xl font-bold">Ranges</h1>
                 <div class="w-full h-auto flex flex-col gap-3 items-center">
@@ -250,7 +252,7 @@ import {
 
         <div class="flex">
             <div
-                class="card flex w-full items-center bg-base-200 h-fit mx-3 -my-52 p-3 gap-3"
+                class="card flex w-full items-center bg-base-200 h-fit mx-3 p-3 gap-3"
             >
                 <h1 class="text-3xl font-bold">Steps</h1>
                 <div class="w-full h-auto flex flex-col gap-3 items-center">
@@ -269,7 +271,7 @@ import {
 
         <div class="flex">
             <div
-                class="card flex w-full items-center bg-base-200 h-fit mx-3 -my-12 p-3 gap-3"
+                class="card flex w-full items-center bg-base-200 h-fit mx-3 p-3 gap-3"
             >
                 <h1 class="text-3xl font-bold">Select</h1>
                 <div class="w-full h-auto flex flex-col gap-3 items-center">
