@@ -4,8 +4,8 @@ import { Menu, Palette, CircleUser } from "lucide-vue-next";
 
 <template>
     <div class="flex w-full p-3">
-        <div class="navbar bg-base-300 rounded-xl">
-            <div class="navbar-start">
+        <div class="navbar bg-base-300 rounded-xl flex-row">
+            <div class="navbar-start w-fit">
                 <button class="dropdown">
                     <div tabindex="0" class="btn btn-ghost btn-square">
                         <Menu />
@@ -42,7 +42,7 @@ import { Menu, Palette, CircleUser } from "lucide-vue-next";
                     <a class="btn btn-ghost text-xl">Testing playground</a>
                 </div>
             </router-link>
-            <div class="navbar-end gap-2">
+            <div class="navbar-end w-full gap-2">
                 <button class="dropdown dropdown-end">
                     <div tabindex="0" class="btn btn-ghost btn-square">
                         <Palette />
