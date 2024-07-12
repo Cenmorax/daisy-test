@@ -1,11 +1,11 @@
 <template>
     <div class="flex items-center justify-center h-full w-full">
         <div
-            class="Card flex flex-col w-1/2 h-fit bg-base-300 items-center rounded-xl p-5 m-3"
+            class="Card flex flex-col min-w-24 min-h-fit bg-base-300 items-center rounded-xl p-5"
         >
             <h1 class="text-3xl font-bold my-3 mx-5">Authorization</h1>
 
-            <div class="flex flex-col gap-2">
+            <div class="flex min-w-fit flex-col gap-2">
                 <label class="input input-bordered flex items-center gap-2">
                     <b>Login</b>
                     <input type="text" class="grow" placeholder='"Amogus"' />
