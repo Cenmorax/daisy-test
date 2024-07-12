@@ -18,7 +18,11 @@
                     <br />
                     <b class="text-red-500">Or don't idk how it works</b>
                 </p>
-                <button class="btn btn-primary btn-outline">Get Started</button>
+                <router-link to="/components">
+                    <button class="btn btn-primary btn-outline">
+                        Get Started
+                    </button>
+                </router-link>
             </div>
         </div>
     </div>
