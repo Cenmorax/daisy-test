@@ -28,12 +28,13 @@ import { Menu, Palette, CircleUser } from "lucide-vue-next";
                                 >
                             </li>
                         </router-link>
-
-                        <li>
-                            <a class="btn btn-sm btn-block btn-ghost"
-                                >Some option 3</a
-                            >
-                        </li>
+                        <router-link to="/supabase">
+                            <li>
+                                <a class="btn btn-sm btn-block btn-ghost"
+                                    >Supabase Testing</a
+                                >
+                            </li>
+                        </router-link>
                     </ul>
                 </button>
             </div>

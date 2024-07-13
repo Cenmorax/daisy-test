@@ -6,6 +6,7 @@ import Home from "./Pages/Home.vue";
 import About from "./Pages/About.vue";
 import ComponentShowcase from "./Pages/ComponentShowcase.vue";
 import AuthPage from "./Pages/AuthPage.vue";
+import SupabasePage from "./Pages/SupabasePage.vue";
 
 const app = createApp(App);
 
@@ -14,6 +15,7 @@ const routes = [
     { path: "/about", name: "About", component: About },
     { path: "/components", name: "Components", component: ComponentShowcase },
     { path: "/authorization", name: "Authorization", component: AuthPage },
+    { path: "/supabase", name: "Supabase", component: SupabasePage },
 ];
 
 const router = createRouter({
