@@ -11,9 +11,9 @@
                         >Idk how scaling works but use flex whenever possible
                     </b>
                     <br />
-                    <b class="text-red-500">Supabase test page doesn't work on mobile</b>
-                    <b class="text-red-500">No idea how to fetch data from supabase nor how to display it</b>
-                    <b class="text-red-500">Authorization it's ready, only the base form is ready, maybe use Auto0, SuperTokens or maybe supabase solution if there is any</b>
+                    <b class="text-red-500">Supabase test page doesn't work on mobile</b> <br>
+                    <b class="text-red-500">No idea how to fetch data from supabase nor how to display it</b> <br>
+                    <b class="text-red-500">Authorization isn't ready, only the base form is ready, maybe use Auto0, SuperTokens or maybe supabase solution if there is any</b>
                     <p class="py-6">
                         Keep GSAP.com and threejs in mind
                     </p>
